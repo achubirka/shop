@@ -2,7 +2,7 @@ import {ProductList} from './product_list.js';
 import {Cart} from './cart.js';
 
 
-const PRODUCTS_LINK = 'http://my-json-server.typicode.com/achubirka/db/products';
+const PRODUCTS_LINK = '//my-json-server.typicode.com/achubirka/db/products';
 export class Shop {
     el;
     product_list_el;
