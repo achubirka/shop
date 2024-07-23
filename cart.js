@@ -89,7 +89,7 @@ export class Cart {
             let product = this.products_obj[productId];
             let count = this.cart[productId];
             return (acc + (product.price * count));
-        }, 0)
+        }, 0).toFixed(2)
     }
 
     getTotalCount() {
