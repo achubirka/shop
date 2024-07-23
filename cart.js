@@ -88,7 +88,7 @@ export class Cart {
         return Object.keys(this.cart).reduce((acc, productId) => {
             let product = this.products_obj[productId];
             let count = this.cart[productId];
-            return (acc + (product.price * count)).toFixed(2);
+            return (acc + (product.price * count));
         }, 0)
     }
 
